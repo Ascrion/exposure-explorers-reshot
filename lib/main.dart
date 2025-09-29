@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
   child: 
 
     MaterialApp(
-      title: 'Exposure Explorers',
+      title: 'Chrome & Capture',
       debugShowCheckedModeBanner: false,
 
       // Color theme

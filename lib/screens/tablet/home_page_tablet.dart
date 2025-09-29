@@ -97,7 +97,7 @@ class LeftSidebar extends ConsumerWidget {
     final height = MediaQuery.of(context).size.height;
     final Uri nitgUrl = Uri.parse('https://www.nitgoa.ac.in/');
     final Uri instaUrl =
-        Uri.parse('https://www.instagram.com/exposure.explorers_nitg/');
+        Uri.parse('https://www.instagram.com');
     // to control the home video
     final isPlaying = ref.watch(isVideoPlayingProvider);
 
@@ -166,8 +166,7 @@ constraints: BoxConstraints(),
             context: context,
             builder: (_) => AlertDialog(
               title: Text(
-                  'Do you want to be redirected to Exposure Explorer'
-                  's Instagram Page?',
+                  'Do you want to be redirected to our Instagram Page?',
                   style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                       color: Theme.of(context).colorScheme.onSecondary)),
               actions: [
@@ -420,7 +419,7 @@ class HomePageContent extends HookConsumerWidget {
         ),
         Center(
           child: Text(
-            'Exposure Explorers \n is the official \n Photography & Videography \n Club of NIT Goa',
+            'Chrome & Capture \n is a \n Photography & Videography \n dedicated towards motorsport',
             textAlign: TextAlign.center,
             style: Theme.of(context)
                 .textTheme
