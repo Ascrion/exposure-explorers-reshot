@@ -377,7 +377,7 @@ class HomePageContent extends HookConsumerWidget {
         const HeroVideo(),
         Center(
           child: Text(
-            'Chrome & Capture \n is a \n Photography & Videography \n dedicated towards motorsport',
+            'Chrome & Capture \n is a club \n dedicated towards \n Motorsport \n Photography and Videography',
             textAlign: TextAlign.center,
             style: Theme.of(context)
                 .textTheme
